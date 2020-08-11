@@ -115,6 +115,8 @@ print(a)'''
 b=a.replace("dilip", "sai")
 print(b)'''
 
+Assignment:
+
 #How to display the given string in ascending order:
 '''a='python'
 b=sorted(a)
