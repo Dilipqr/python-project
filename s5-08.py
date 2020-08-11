@@ -124,3 +124,30 @@ print(a)'''
 '''if (5>2): print("yes")
 print("Yes") if 5 > 2 else print("No")'''
 
+#given number is palindrome or not
+'''a=input("enter a string: ")
+b=(a[::-1])
+if(a==b):
+    print("palindrome")    #mom
+else:
+    print("Not palindrome")'''
+
+#Fabonacci    
+'''a=0
+b=1
+print(a)
+print(b)                    #0 1 1 2 3 5 8 13 21 34 54 89
+for i in range(0,10):
+    c=a+b
+    a=b
+    b=c
+    print(c)'''
+
+#Given number is prime or not:
+'''a=int(input("enter a number: "))
+for i in range(2,a):
+    if a%i==0:
+        print("not prime")
+        break
+else:
+    print("prime")
