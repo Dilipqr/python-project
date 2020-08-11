@@ -117,6 +117,18 @@ print(a)'''
 '''myfamily={"child1":{"name":"om","year":1864},"child2":{"name":"sai","year":1895},"child3":{"name":"Ram","year":1912}}
 print(myfamily)'''
 
+#comprehension:
+'''list=[a*b for item in list if condition'''
+
+'''s=[i*i for i in range(1,10)]'''
+
+'''s=[2**i for i in range(1,6)]'''
+
+'''s=[i for i in range(1,11) if i%2==0]'''
+
+'''words=["python","Ml","D1"]
+l=[w[o] for w in words]
+print(l)'''
 
 #write a pgm to display the unique vowels present in given keyword
 '''x=input("Enter a string: ")
