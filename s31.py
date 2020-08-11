@@ -2,9 +2,9 @@
 '''a=int(input("Enter a number: "))
 b=int(input("Enter a number: "))
 if(a>b):
-    print("a")
+    print(a)
 else:
-    print("b")'''
+    print(b)'''
 
 #even or odd:
 '''a=int(input("Enter a number: "))
