@@ -163,3 +163,30 @@ print(z)'''
 b={"apple","cherry","grapes"}
 a.update(b)
 print(a)'''
+
+
+
+#Find the number of occurances of each vowels in a given string:
+'''a =(input("Enter a string: "))
+vowels = "aeiou"
+for v in vowels:
+    print(v, a.lower().count(v))'''
+
+
+
+#find the number of occurances of each letter in given string from the user:
+'''a=(input("enter a string:  "))
+for i in a:
+    print(i, a.count(i))'''
+
+
+
+#pgm to take dict from the keyboard print the values:
+'''d={}
+n=int(input("enter a number: "))
+for i in range(n):
+    key=input("enter a keys:  ")
+    values=int(input("enter a values: "))
+    d[key]=values
+print(d)
+print(sum(d.values()))'''
